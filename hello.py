@@ -7,3 +7,5 @@ print "Just kidding"
 print "Or am I?"
 
 print "What?"
+
+print "Tomato!"
