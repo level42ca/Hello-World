@@ -9,3 +9,5 @@ print "Or am I?"
 print "What?"
 
 print "Tomato!"
+
+print "Crazy"
