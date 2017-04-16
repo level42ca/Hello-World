@@ -16,6 +16,8 @@ print """
 # Select from the following files:                                  #
 #     - hello.py                                                    #
 #     - game.py                                                     #
+#     - farts.py                                                    #
+#     - list.py                                                     #
 #                                                                   #
 #####################################################################
 """
