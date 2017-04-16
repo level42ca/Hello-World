@@ -20,4 +20,6 @@ print """
 #####################################################################
 """
 
-input("Enter the name of a Python script you'd like to run: ")
+selection = input("Enter the name of a Python script you'd like to run: ")
+
+print(selection, " is loading ...")
