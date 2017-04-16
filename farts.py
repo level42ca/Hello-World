@@ -1,1 +1,2 @@
-print "Here will go farts :)"
+def farts():
+    print("Here will go farts :)")

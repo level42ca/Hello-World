@@ -1,5 +1,6 @@
 #Imports the "random" library
 import random
+import master
 
 def game():
     # Generate a Random number between 1 - 1000
@@ -15,11 +16,11 @@ def game():
         try:
             guess = int(input("Guess a number between 1 and 1000: \n -->: "))
         except ValueError:
-            print("That is not a number")
+            print("That is not a number\n")
         else:
             # Compare the guess to the secret number
             if guess == secret_num:
-                print(" -->: You got it!, the secret number was {}.".format(secret_num))
+                print(" -->: You got it!, the secret number was {}.\n".format(secret_num))
                 break
             # Print hit/miss to show user how close they are
             elif guess < secret_num:        
@@ -29,16 +30,16 @@ def game():
             guesses.append(guess)
 
     else:
-        print(" -->: You lost, the secret number was {}.".format(secret_num))
+        print(" -->: You lost, the secret number was {}.\n".format(secret_num))
 
-    play_again = input("Do you want to play again? Y/n ")
+    play_again = input("Do you want to play again? Y/n \n")
 
     if play_again.lower() != 'n':
-        print ""
-        print ""
-        print ""
+        print("""
+        
+        
+        """)
         game()
     else:
-        print("Bye!")
-        
-game()
+        print("Bye!\n")
+        master.master()

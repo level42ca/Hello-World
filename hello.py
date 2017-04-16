@@ -1,22 +1,32 @@
-print "Hello World!"
+import master
 
-print "Nigel is a poopy-but-hole"
+def hello_world():
+    print("Hello World!")
 
-print "Just kidding"
+    print("Nigel is a poopy-but-hole")
 
-print "Or am I?"
+    print("Just kidding")
 
-print "What?"
+    print("Or am I?")
 
-print "Tomato!"
+    print("What?")
 
-print "Crazy"
+    print("Tomato!")
 
-print "All the honey"
+    print("Crazy")
 
-print "All the D"
+    print("All the honey")
 
-print "This is a really big change"
+    print("All the D")
+
+    print("This is a really big change")
 
 
+    print("""
+
+    """)
+    selection = input("Type home to return to the main menu: ")
+
+    if selection.lower() == "home":
+        master.master()
 
